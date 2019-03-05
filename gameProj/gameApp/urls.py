@@ -1,6 +1,7 @@
 from django.urls import path, include
 from . import views
 
+# ROUTING TO FUNCTIONS
 urlpatterns = [
     path('', views.index, name='index'),
     path('/delete/<int:id>/', views.deleteaccount, name='delete'),

@@ -5,11 +5,14 @@
     <title>Create New Game</title>
 </head>
 <body>
-<h1>Create new game</h1>
+<h1>Create New game</h1>
+
+<!--FORM FOR GAME-->
 <form method="POST">
     {{ gameform.as_p}}
     {% csrf_token %}
     <input type="submit" value="Submit"></form>
+<!--LINK TO RETURN TO INDEX-->
 <a href="{% url 'index' %}"><button>Cancel</button></a>
 </body>
 </body>

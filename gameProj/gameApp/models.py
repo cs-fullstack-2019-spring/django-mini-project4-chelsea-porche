@@ -12,7 +12,7 @@ class Person(models.Model):
     password2 = models.CharField(max_length=10)
     userForeignKey = models.ForeignKey(User, on_delete=models.PROTECT, null=True, blank=True)
 
-
+# TO DISPLAY USERNAME IN ADMIN SITE
     def __str__(self):
         return self.username
 
@@ -25,7 +25,7 @@ class Game(models.Model):
     ageLimit = models.IntegerField(default=0)
     collectorForeignKey = models.ForeignKey(Person, on_delete=models.CASCADE, null=True, blank=True)
 
-
+# TO DISPLAY GAME NAME IN USER SITE
     def __str__(self):
         return self.name
 

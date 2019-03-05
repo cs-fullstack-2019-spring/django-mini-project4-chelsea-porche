@@ -8,8 +8,10 @@
 <h2>Are you sure you want to delete?</h2>
 <form method="post">
     {% csrf_token %}
+    <!--TO DISPLAY THE GAME SELECTED FOR DELETION-->
     Delete {{ selectedgame }}
     <input type="submit" value="delete">
+    <!--RETURN TO INDEX-->
     <a href="{% url 'index' %}">Cancel</a>
 
 </form>

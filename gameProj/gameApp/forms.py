@@ -6,14 +6,26 @@ from .models import Person, Game
 class NewUserForm(forms.ModelForm):
     class Meta():
         model = Person
+        # SO FOREIGN KEY WILL NOT SHOW IN USER VIEW
         exclude = ["userForeignKey"]
         fields = '__all__'
+
+# AN ATTEMPT TO VALIDATE PASSWORDS
+    def clean_password1(self):
+        pass1 = self.cleaned_data["password1"]
+        pass2 = self.cleaned_data["password2"]
+
+        if pass1 != pass2:
+            raise forms.ValidationError("Passwords Do Not Match")
+
+        return pass1
 
 
 # to sync game model to form
 class NewGameForm(forms.ModelForm):
     class Meta():
         model = Game
+        # SO FOREIGN KEY WILL NOT SHOW IN USER VIEW
         exclude = ["collectorForeignKey"]
         fields = '__all__'
 
@@ -28,7 +40,7 @@ class NewGameForm(forms.ModelForm):
         return agelimit
 
 
-    #
+    #AN ATTEMPT TO VALIDATE DATES
     # def clean_dateMade(self):
     #     datemade = self.cleaned_data["dateMade"]
     #

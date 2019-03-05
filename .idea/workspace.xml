@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="364382a2-f912-4c57-9115-d9d56c2bd69a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gameProj/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gameProj/gameApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/templates/blogApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/creategame.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/creategame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gameProj/gameApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gameProj/gameApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameProj/gameProj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameProj/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gameProj/gameApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -30,40 +34,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/creategame.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gameProj/gameApp/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="555">
+              <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/createuser.html">
+        <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="15">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -71,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/delete.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="165">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -80,20 +63,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gameProj/gameApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="43" column="67" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gameProj/gameApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="250">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -120,17 +100,17 @@
         <option value="$PROJECT_DIR$/gameProj/gameProj/urls.py" />
         <option value="$PROJECT_DIR$/gameProj/gameApp/templates/index.html" />
         <option value="$PROJECT_DIR$/gameProj/gameApp/admin.py" />
-        <option value="$PROJECT_DIR$/gameProj/gameApp/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/gameProj/gameProj/settings.py" />
         <option value="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/createuser.html" />
         <option value="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/newgame.html" />
-        <option value="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/creategame.html" />
-        <option value="$PROJECT_DIR$/gameProj/gameApp/models.py" />
-        <option value="$PROJECT_DIR$/gameProj/gameApp/urls.py" />
-        <option value="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/delete.html" />
         <option value="$PROJECT_DIR$/gameProj/gameApp/views.py" />
         <option value="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html" />
+        <option value="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/creategame.html" />
+        <option value="$PROJECT_DIR$/gameProj/gameApp/urls.py" />
+        <option value="$PROJECT_DIR$/gameProj/gameApp/models.py" />
         <option value="$PROJECT_DIR$/gameProj/gameApp/forms.py" />
+        <option value="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/delete.html" />
+        <option value="$PROJECT_DIR$/gameProj/gameApp/templates/registration/login.html" />
       </list>
     </option>
   </component>
@@ -140,11 +120,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="800" />
-    <option name="y" value="25" />
-    <option name="width" value="800" />
-    <option name="height" value="824" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="820" />
+    <option name="y" value="48" />
+    <option name="width" value="780" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -251,17 +231,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="25" width="800" height="824" extended-state="4" />
-    <editor active="true" />
+    <frame x="820" y="48" width="780" height="801" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26657826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27384195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.31798562" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32886904" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -337,34 +316,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/newgame.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/creategame.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -385,30 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="43" column="67" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/createuser.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -416,22 +347,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/models.py">
+    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="555">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/creategame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gameProj/gameApp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameProj/gameApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
