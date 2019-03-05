@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+</head>
+<body>
+
+<p><a href="{% url 'createuser' %}">Create new user</a></p>
+{% block content %}
+
+
+{% if user.is_authenticated %}
+    <h2>Welcome, {{ user.username }} !</h2>
+    <p><a href="{% url 'logout' %}">LOGOUT</a></p>
+
+{% else %}
+    <p><a href="{% url 'createuser' %}">Create new user</a></p>
+
+{% endif %}
+
+<p><a href="{% url 'creategame' %}">Add Game</a></p>
+
+
+
+
+
+
+<h3>Games</h3>
+{% for games in gamer %}
+    <p>Name: {{games.name}}</p>
+    <p>Developer: {{games.developer}}</p>
+    <p><a href="{% url 'editgame' games.id %}">Edit Game</a></p>
+    <p><a href="{% url 'delete' games.id %}">Delete</a></p>
+
+    <hr/>
+{% endfor %}
+
+
+
+
+{% endblock %}
+
+
+</body>
+</html>

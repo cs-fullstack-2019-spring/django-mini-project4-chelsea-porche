@@ -29,11 +29,3 @@ class Game(models.Model):
     def __str__(self):
         return self.name
 
-# AGE LIMIT VALIDATION
-    def clean_ageLimit(self):
-        agelimit = self.cleaned_data["ageLimit"]
-
-        if agelimit < 17:
-            raise forms.ValidationError("Not Required Age")
-
-        return agelimit

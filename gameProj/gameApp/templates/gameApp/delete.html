@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete</title>
+</head>
+<body>
+<h2>Are you sure you want to delete?</h2>
+<form method="post">
+    {% csrf_token %}
+    Delete {{ selectedgame }}
+    <input type="submit" value="delete">
+    <a href="{% url 'index' %}">Cancel</a>
+
+</form>
+</body>
+</html>
