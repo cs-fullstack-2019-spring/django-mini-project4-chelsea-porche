@@ -1,8 +1,10 @@
+/*adds black backround and white font*/
 body{
     background-color: black;
     color: white;
 }
 
+/*creates a grid for display*/
 .container{
     display: grid;
     grid-template-areas:
@@ -17,6 +19,7 @@ body{
     /*padding: 5%;*/
 }
 
+/*styles header area*/
 header{
     grid-area: header;
     border-bottom: 1px solid red;
@@ -26,7 +29,7 @@ header{
     font-size: 300%;
 
 }
-
+/*styles section area*/
 section{
     grid-area: section;
     /*border: 1px solid red;*/
