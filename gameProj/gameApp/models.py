@@ -7,10 +7,10 @@ from django.contrib.auth.models import User
 
 # USER MODEL
 class Person(models.Model):
-    username = models.CharField(max_length=100)
+    username = models.CharField(max_length=20)
     password1 = models.CharField(max_length=10)
     password2 = models.CharField(max_length=10)
-    userForeignKey = models.ForeignKey(User, on_delete=models.PROTECT, null=True, blank=True)
+    userForeignKey = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True, unique=True)
 
 # TO DISPLAY USERNAME IN ADMIN SITE
     def __str__(self):

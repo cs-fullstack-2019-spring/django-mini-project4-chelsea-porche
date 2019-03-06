@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+            "header header"
+            "section section";
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid red;
+    color: white;
+    margin: 20%;
+    /*padding: 5%;*/
+}
+
+header{
+    grid-area: header;
+    border-bottom: 1px solid red;
+    color:white;
+    padding: 5%;
+    text-align: center;
+    font-size: 300%;
+
+}
+
+section{
+    grid-area: section;
+    /*border: 1px solid red;*/
+    color:white;
+    padding: 5%
+}
+
+.header{
+    font-size: 150%;
+}
+
+button{
+    margin-top: 2%;
+}

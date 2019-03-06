@@ -3,6 +3,8 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from .models import Game, Person
 from .forms import NewUserForm, NewGameForm
+from django.contrib.auth.models import User
+
 
 # Create your views here.
 
@@ -10,7 +12,7 @@ from .forms import NewUserForm, NewGameForm
 @login_required
 def index(request):
     # TO LOGIN SPECIFIC USER
-    userLogin = Person.objects.filter(userForeignKey=request.user)
+    userLogin = Person.objects.filter(username=request.user)
     # TO GRAB GAME OBJECTS
     gamer = Game.objects.all()
     # TO SYNC VARIABLES WITH HTML PAGE FORMAT
@@ -28,6 +30,9 @@ def createuser(request):
     # TO SAVE IF INFO VALIDATES
     if new_user.is_valid():
         new_user.save()
+        # creating new User
+        user = User.objects.create_user(username=request.POST['username'], password=request.POST['password1'])
+        user.save()
         # TO RETURN TO INDEX AFTER SUBMIT
         return redirect('index')
     # FOR DISPLAYING FORM INFO ON HTML FROM FORM/MODEL
@@ -52,6 +57,7 @@ def creategame(request):
     }
     # TO ROUTE TO/FROM CREATEGAME HTML
     return render(request, 'gameApp/creategame.html', context)
+
 
 
 

@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-
+    <link rel="stylesheet" href="../../static/gameApp/gameApp.css">
 </head>
-<body>
+
+<body class="container">
+
+<header>GAME TIME</header>
+<section>
+
 <!--TO SHOW/NOT SHOW FOR LOGGED IN/LOGGED OUT USER-->
 {% if user.is_authenticated %}
     <h2>Welcome, {{ user.username }}</h2>
@@ -45,6 +50,6 @@
 
 {% endblock content %}
 
-
+</section>
 </body>
 </html>

@@ -10,8 +10,8 @@ class NewUserForm(forms.ModelForm):
         exclude = ["userForeignKey"]
         fields = '__all__'
 
-# AN ATTEMPT TO VALIDATE PASSWORDS
-    def clean_password1(self):
+# TO VALIDATE PASSWORDS
+    def clean(self):
         pass1 = self.cleaned_data["password1"]
         pass2 = self.cleaned_data["password2"]
 
