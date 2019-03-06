@@ -13,7 +13,7 @@ from django.contrib.auth.models import User
 def index(request):
     # TO LOGIN SPECIFIC USER
     userLogin = Person.objects.filter(username=request.user)
-    # TO GRAB GAME OBJECTS
+    # TO GRAB GAME OBJECTS- grabs all instead of specific users :(
     gamer = Game.objects.all()
     # TO SYNC VARIABLES WITH HTML PAGE FORMAT
     context = {
@@ -29,8 +29,9 @@ def createuser(request):
     new_user = NewUserForm(request.POST or None)
     # TO SAVE IF INFO VALIDATES
     if new_user.is_valid():
+        # SAVES DATA AS PERSON
         new_user.save()
-        # creating new User
+        # TO CREATE A USER/PERSON THAT CAN LOGIN
         user = User.objects.create_user(username=request.POST['username'], password=request.POST['password1'])
         user.save()
         # TO RETURN TO INDEX AFTER SUBMIT
@@ -46,6 +47,7 @@ def createuser(request):
 def creategame(request):
     # TO GRAB OBJECTS FROM GAME FORM/MODEL
     gameform = NewGameForm(request.POST or None)
+
     # TO SAVE IF INFO VALIDATES
     if gameform.is_valid():
         gameform.save()

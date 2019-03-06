@@ -12,13 +12,16 @@ class NewUserForm(forms.ModelForm):
 
 # TO VALIDATE PASSWORDS
     def clean(self):
+        # GRABBING PASSWORD OBJECTS
         pass1 = self.cleaned_data["password1"]
         pass2 = self.cleaned_data["password2"]
 
+        # IN THE CASE THAT THEY DO NO MATCH
         if pass1 != pass2:
             raise forms.ValidationError("Passwords Do Not Match")
 
-        return pass1
+        # RETURN CANT CALL SPECIFIC VARIABLE, DOESNT WORK IF ONE IS CALLED
+        return
 
 
 # to sync game model to form
@@ -40,7 +43,7 @@ class NewGameForm(forms.ModelForm):
         return agelimit
 
 
-    #AN ATTEMPT TO VALIDATE DATES
+    #AN ATTEMPT TO VALIDATE DATES..DONT RUN IT WITH CODE
     # def clean_dateMade(self):
     #     datemade = self.cleaned_data["dateMade"]
     #

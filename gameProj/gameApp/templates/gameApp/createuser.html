@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Create New Account</title>
+    <link rel="stylesheet" href="../../static/gameApp/gameApp.css">
+
 </head>
-<body>
+<body class="container">
+<section>
 <h1>Create new account</h1>
+    <!--FORM TO CREATE USER-->
 <form method="POST">
     {{ userform.as_p}}
     {% csrf_token %}
+    <!--SUBMIT BUTTON-->
     <input type="submit" value="Submit"></form>
+    <!--CANCEL LINK BACK TO INDEX-->
 <a href="{% url 'index' %}"><button>Cancel</button></a>
+
+
+</section>
 </body>
 </html>

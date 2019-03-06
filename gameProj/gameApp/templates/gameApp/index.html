@@ -19,7 +19,7 @@
 <!--LINK TO CREATE GAME-->
 <p><a href="{% url 'creategame' %}">Add Game</a></p>
 {% else %}
-<h1>WELCOME GAMER!</h1>
+<h1>WELCOME!</h1>
 <!--&lt;!&ndash;LINK TO CREATE USER;it created a Person instead-->
 <p><a href="{% url 'createuser' %}">CREATE NEW USER</a></p>
 <p>or</p>
@@ -31,8 +31,8 @@
 
 
 {% block content %}
-
-<h3>Games</h3>
+<hr/>
+<h2>Your Collection</h2>
 <!--TO DISPLAY SPECIFIC ELEMENTS OF GAME MODEL-->
 {% for games in gamer %}
     <p>Name: {{games.name}}</p>
