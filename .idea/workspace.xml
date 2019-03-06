@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="364382a2-f912-4c57-9115-d9d56c2bd69a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/gameProj/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/static/gameApp/gameApp.css" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/static/gameApp/gameApp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/creategame.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/creategame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/createuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/createuser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameProj/gameApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameProj/gameApp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +15,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="510">
               <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
             </state>
           </provider>
@@ -454,7 +447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gameProj/gameApp/templates/gameApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="510">
           <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
