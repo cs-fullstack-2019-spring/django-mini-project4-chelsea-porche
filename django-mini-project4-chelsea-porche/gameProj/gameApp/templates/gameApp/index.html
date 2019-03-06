@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../../static/gameApp/gameApp.css">
+</head>
+
+<body class="container">
+
+<header>GAME TIME</header>
+<section>
+
+<!--TO SHOW/NOT SHOW FOR LOGGED IN/LOGGED OUT USER-->
+{% if user.is_authenticated %}
+    <h2>Welcome, {{ user.username }}</h2>
+<!--TO DIRECT TO LOGOUT ROUTE-->
+<p><a href="{% url 'logout' %}">LOGOUT</a></p>
+<!--LINK TO CREATE GAME-->
+<p><a href="{% url 'creategame' %}">Add Game</a></p>
+{% else %}
+<h1>WELCOME!</h1>
+<!--&lt;!&ndash;LINK TO CREATE USER;it created a Person instead-->
+<p><a href="{% url 'createuser' %}">CREATE NEW USER</a></p>
+<p>or</p>
+<p>LOG IN</p>
+
+{% endif %}
+
+
+
+
+{% block content %}
+<hr/>
+<h2>Your Collection</h2>
+<!--TO DISPLAY SPECIFIC ELEMENTS OF GAME MODEL-->
+{% for games in gamer %}
+    <p>Name: {{games.name}}</p>
+    <p>Developer: {{games.developer}}</p>
+<!--LINK TO EDIT GAME-->
+    <p><a href="{% url 'editgame' games.id %}">Edit Game</a></p>
+<!--LINK TO DELETE-->
+    <p><a href="{% url 'delete' games.id %}">Delete</a></p>
+
+    <hr/>
+{% endfor %}
+
+
+
+
+{% endblock content %}
+
+</section>
+</body>
+</html>

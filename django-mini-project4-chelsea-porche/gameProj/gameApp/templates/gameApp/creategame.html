@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Game</title>
+    <link rel="stylesheet" href="../../static/gameApp/gameApp.css">
+
+
+</head>
+<body class="container">
+
+<section>
+<h1>Create New game</h1>
+
+<!--FORM FOR GAME-->
+<form method="POST">
+    {{ gameform.as_p}}
+    {% csrf_token %}
+    <input type="submit" value="Submit"></form>
+<!--LINK TO RETURN TO INDEX-->
+<a href="{% url 'index' %}"><button>Cancel</button></a>
+
+</section>
+</body>
+
+</html>
