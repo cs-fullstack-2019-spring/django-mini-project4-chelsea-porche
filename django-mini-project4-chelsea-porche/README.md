@@ -60,3 +60,5 @@ A user's rank is "grunt" by default. Their rank should change based off of the i
 MDN article: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
 
 Djanog Many to One article for foreign keys: https://docs.djangoproject.com/en/2.1/topics/db/examples/many_to_one/
+<hr>
+6 points. The index shows all games instead of the logged in user's games. Also, you're not asking the user to create a new user or log in on the index page. It's being done on the login page. Also, when all games are deleted it doesn't say "No games"
